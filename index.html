@@ -7,29 +7,30 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- 🎵 Música de fondo -->
-  <audio id="musica" autoplay loop>
+
+  <!-- Audio de fondo -->
+  <audio id="musica" loop>
     <source src="musica.mp3" type="audio/mpeg">
     Tu navegador no soporta audio.
   </audio>
 
-  <!-- 🖼 Contenido principal -->
+  <!-- Contenido principal -->
   <div class="container">
-    <h1>🎉 ¡Feliz Cumpleaños, Aleeeeeeeeeeeeeeeeeeeeeeeeeeee, migajera3000! 🎉</h1>
-    <p>espero la pases bien</p>
+    <h1>🎉 ¡Feliz Cumpleaños, [nombre]! 🎉</h1>
+    <p>Un clásico meme para celebrar este día 😎</p>
 
     <!-- Imagen del meme -->
     <div class="meme-container">
-      <img src="meme.jpg" alt="meme" class="meme">
+      <img src="meme.jpg" alt="meme divertido" class="meme">
     </div>
 
-    <p class="caption"> Espero que te saque una sonrisa</p>
+    <p class="caption">😂 Espero que te saque una sonrisa</p>
 
-    <!-- Botón para la página tierna -->
-    <button onclick="redirigirCarta()"> Ahora sí, ira esto we</button>
+    <!-- Botones -->
+    <button id="btn-musica">🎵 Reproducir música de fondo</button>
+    <button onclick="redirigirCarta()">👉 Ahora sí, algo más lindo</button>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
-
