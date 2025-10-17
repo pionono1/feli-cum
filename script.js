@@ -12,7 +12,7 @@ btnMusica.addEventListener("click", () => {
 });
 
 function redirigirCarta() {
-  // 🔗 Cambia esta URL por la de tu página tierna
   window.location.href = "https://pionono1.github.io/Feliz-cumple-reina/";
 }
+
 
