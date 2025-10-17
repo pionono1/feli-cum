@@ -21,7 +21,7 @@ body {
   100% { background-position: 0% 50%; }
 }
 
-/* CONTENEDOR PRINCIPAL */
+/* Contenedor principal */
 .container {
   position: relative;
   top: 50%;
@@ -50,7 +50,7 @@ p {
   margin: 10px 0;
 }
 
-/* IMAGEN DEL MEME */
+/* Imagen del meme */
 .meme-container {
   margin: 20px 0;
 }
@@ -67,7 +67,7 @@ p {
   transform: rotate(-2deg) scale(1.05);
 }
 
-/* BOTÓN */
+/* Botón */
 button {
   background: #ff6b81;
   color: white;
