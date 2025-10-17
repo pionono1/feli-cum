@@ -1,5 +1,10 @@
 function redirigirCarta() {
-  // 🔗 Reemplazá esta URL con la de tu página tierna (GitHub Pages de la carta)
-  window.location.href = "https://pionono1.github.io/Feliz-cumple-reina/";
+  // 🔗 Cambia esta URL por la de tu segunda página (la tierna)
+  window.location.href = "https://TUUSUARIO.github.io/feliz-cumple-carta";
 }
 
+// Reproduce la música si el navegador bloquea autoplay
+document.addEventListener("click", () => {
+  const audio = document.getElementById("musica");
+  if (audio.paused) audio.play().catch(() => {});
+});
