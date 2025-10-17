@@ -1,4 +1,4 @@
 function redirigirCarta() {
-  // cambia esta URL por la de tu segunda página (la carta)
+  // 🔗 Reemplazá esta URL con la de tu página tierna (GitHub Pages de la carta)
   window.location.href = "https://TUUSUARIO.github.io/feliz-cumple-carta";
-    }
+}
