@@ -3,28 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>🎂 Feliz Cumpleaños (versión meme)</title>
+  <title>🎂 Feliz Cumpleaños (modo meme)</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- 🎬 VIDEO DE FONDO -->
+  <video autoplay loop muted playsinline id="background-video">
+    <source src="media/fondo.mp4" type="video/mp4">
+    Tu navegador no soporta el video de fondo.
+  </video>
+
+  <!-- 🎉 CONTENIDO PRINCIPAL -->
   <div class="container">
     <h1>🎉 ¡Feliz Cumpleaños, [nombre]! 🎉</h1>
     <p>Porque un cumpleaños sin meme... no cuenta 😎</p>
 
-    <!-- Puedes usar un GIF o un video -->
+    <!-- VIDEO DEL MEME -->
     <div class="meme-container">
-      <!-- Si usas GIF -->
-      <!-- <img src="media/meme.gif" alt="Meme animado" class="meme"> -->
-
-      <!-- O si prefieres video -->
       <video autoplay loop muted playsinline class="meme">
         <source src="media/meme.mp4" type="video/mp4">
         Tu navegador no soporta video.
       </video>
     </div>
 
-    <p class="caption">✨ Espero que al menos te haya hecho sonreír 😄</p>
+    <p class="caption">✨ Espero que al menos te haya hecho reír 😄</p>
 
+    <!-- BOTÓN QUE LLEVA A LA SEGUNDA PÁGINA -->
     <button onclick="redirigirCarta()">👉 Ahora en serio...</button>
   </div>
 
