@@ -3,33 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>🎂 Feliz Cumpleaños (modo meme)</title>
+  <title>🎉 Feliz Cumple (modo meme)</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- 🎬 VIDEO DE FONDO -->
-  <video autoplay loop muted playsinline id="background-video">
-    <source src="media/fondo.mp4" type="video/mp4">
-    Tu navegador no soporta el video de fondo.
-  </video>
+  <!-- 🔊 MÚSICA DE FONDO -->
+  <audio id="musica" autoplay loop>
+    <source src="media/musica.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio.
+  </audio>
 
   <!-- 🎉 CONTENIDO PRINCIPAL -->
   <div class="container">
     <h1>🎉 ¡Feliz Cumpleaños, [nombre]! 🎉</h1>
-    <p>Porque un cumpleaños sin meme... no cuenta 😎</p>
+    <p>Un clásico meme para celebrar este día 😎</p>
 
-    <!-- VIDEO DEL MEME -->
+    <!-- IMAGEN DEL MEME -->
     <div class="meme-container">
-      <video autoplay loop muted playsinline class="meme">
-        <source src="media/meme.mp4" type="video/mp4">
-        Tu navegador no soporta video.
-      </video>
+      <img src="media/meme.jpg" alt="meme" class="meme">
     </div>
 
-    <p class="caption">✨ Espero que al menos te haya hecho reír 😄</p>
+    <p class="caption">😂 Espero que te saque una sonrisa</p>
 
-    <!-- BOTÓN QUE LLEVA A LA SEGUNDA PÁGINA -->
-    <button onclick="redirigirCarta()">👉 Ahora en serio...</button>
+    <!-- BOTÓN -->
+    <button onclick="redirigirCarta()">👉 Ahora sí, algo más lindo</button>
   </div>
 
   <script src="script.js"></script>
